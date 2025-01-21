@@ -1,0 +1,70 @@
+#intro {
+    margin-top: 50px;
+    padding: 20px;
+    font-size: 18px;
+    color: #4b0082;
+    text-align: center;
+}
+
+#typingText {
+    font-family: "Montserrat";
+    font-size: 20px;
+    color: #333;
+    display: inline-block;
+    white-space: pre-wrap; /* Para respetar los saltos de línea */
+}
+
+#startButton {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #ff1493;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#startButton:hover {
+    transform: scale(1.1);
+}
+
+/* Sección para el área de las imágenes */
+#mainImageWrapper {
+    width: 100%; /* Para ocupar todo el ancho disponible */
+    height: 300px; /* Fija una altura para el área de la imagen */
+    overflow: hidden; /* Para ocultar cualquier contenido que sobresalga */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px; /* Para separar la imagen de los botones */
+}
+
+#mainImage {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain; /* Asegura que la imagen mantenga su proporción */
+}
+
+/* Botones */
+#buttons {
+    display: flex;
+    justify-content: center;
+    gap: 10px; /* Espacio entre los botones */
+}
+
+#yesButton, #noButton {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+#yesButton:hover, #noButton:hover {
+    transform: scale(1.1);
+}
